@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "salahfile.txt",
+      "output": "File tidak dapat dibuka. Program Berakhir.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "char1.txt\r\n1 2 3",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 14700\r\nATK: 651\r\nCrit Rate: 45%\r\nCrit Damage: 74%\r\nER: 120%\r\nEM: 100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "char2.txt\r\n3 1 4",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 15480\r\nATK: 1201\r\nCrit Rate: 5%\r\nCrit Damage: 138%\r\nER: 130%\r\nEM: 100",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "char3.txt\r\n5 5 5",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 12500\r\nATK: 1204\r\nCrit Rate: 25%\r\nCrit Damage: 83%\r\nER: 100%\r\nEM: 285",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "char4.txt\r\n2 1 2",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 13080\r\nATK: 996\r\nCrit Rate: 5%\r\nCrit Damage: 116%\r\nER: 120%\r\nEM: 200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "char5.txt\r\n3 4 4",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 10800\r\nATK: 1079\r\nCrit Rate: 5%\r\nCrit Damage: 138%\r\nER: 100%\r\nEM: 280",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "char6.txt\r\n4 1 1",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 36960\r\nATK: 1148\r\nCrit Rate: 5%\r\nCrit Damage: 50%\r\nER: 155%\r\nEM: 20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "char7.txt\r\n3 3 5",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 13000\r\nATK: 1068\r\nCrit Rate: 47%\r\nCrit Damage: 162%\r\nER: 100%\r\nEM: 20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "char8.txt\r\n1 3 3",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 13000\r\nATK: 725\r\nCrit Rate: 57%\r\nCrit Damage: 138%\r\nER: 100%\r\nEM: 20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "char9.txt\r\n4 2 4",
+      "output": "setelah menggunakan senjata dan artifak adalah:\r\nHP: 13000\r\nATK: 1046\r\nCrit Rate: 5%\r\nCrit Damage: 50%\r\nER: 210%\r\nEM: 180",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
